@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUVENE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">SUVENE</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>ESSENTIAL CLOTHING</h1>
+            <p>Discover our curated collection of premium streetwear and accessories</p>
+            <a href="#" class="cta-button">SHOP NOW</a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured">
+        <h2 class="section-title">FEATURED PRODUCTS</h2>
+        <div class="products-grid">
+            <div class="product-card" onclick="showProductDetails('look_polo')">
+                <img src="./imgs/look_polo/1.jpg" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Look Polo</h3>
+                    <p class="product-price">€45.00</p>
+                    <button class="product-button">SEE THE DETAILS</button>
+                </div>
+            </div>
+            <div class="product-card" onclick="showProductDetails('cargo-pants')">
+                <div class="product-image">👖</div>
+                <div class="product-info">
+                    <h3 class="product-name">Cargo Pants</h3>
+                    <p class="product-price">€89.00</p>
+                    <button class="product-button">SEE THE DETAILS</button>
+                </div>
+            </div>
+            <div class="product-card" onclick="showProductDetails('Goyard_Clutch')">
+                <img src="./imgs/goyard_clutch/1.jpg" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Essential Hoodie</h3>
+                    <p class="product-price">€75.00</p>
+                    <button class="product-button">SEE THE DETAILS</button>
+                </div>
+            </div>
+            <div class="product-card" onclick="showProductDetails('cap')">
+                <div class="product-image">🧢</div>
+                <div class="product-info">
+                    <h3 class="product-name">Logo Cap</h3>
+                    <p class="product-price">€35.00</p>
+                    <button class="product-button">SEE THE DETAILS</button>
+                </div>
+            </div>
+            <div class="product-card" onclick="showProductDetails('jacket')">
+                <div class="product-image">🧥</div>
+                <div class="product-info">
+                    <h3 class="product-name">Bomber Jacket</h3>
+                    <p class="product-price">€120.00</p>
+                    <button class="product-button">SEE THE DETAILS</button>
+                </div>
+            </div>
+            <div class="product-card" onclick="showProductDetails('sneakers')">
+                <div class="product-image">👟</div>
+                <div class="product-info">
+                    <h3 class="product-name">Street Sneakers</h3>
+                    <p class="product-price">€95.00</p>
+                    <button class="product-button">SEE THE DETAILS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>ABOUT SUVENE</h2>
+            <p>SUVENE represents the intersection of contemporary streetwear and timeless design. We create essential
+                pieces that speak to the modern individual who values quality, comfort, and authentic style.</p>
+            <p>Our carefully curated collections feature premium materials and attention to detail, ensuring that every
+                piece becomes a staple in your wardrobe.</p>
+            <p>From oversized silhouettes to classic cuts, we deliver clothing that transcends trends and seasons.</p>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="contact" id="contact">
+        <div class="contac-text">
+            <h2>Contacts</h2>
+            <div class="contact-subtext">
+                <div class="contact-location">
+                    <i class="ri-map-pin-line"></i>
+                    <p>Uzbekistan, Tashkent, Sergeli district, Nugoykurgon mahalla, 41 Saadi str.</p>
+                </div>
+                <div class="contact-phone">
+                    <i class="ri-phone-line"></i>
+                    <p>+998 (90) 037-40-44<br>+998 (71) 250-26-63</p>
+                </div>
+                <div class="contact-email">
+                    <i class="ri-mail-line"></i>
+                    <p>info@sunnyfruit.uz</p>
+                </div>
+            </div>
+            <div class="social-networks">
+                <p>We are in the social network</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11984.789306917345!2d69.21958699999999!3d41.311802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0a7f7f7f7f%3A0x1234567890abcdef!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sen!2sus!4v1698523400!5m2!1sen!2sus"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CUSTOMER SERVICE</h3>
+                <ul>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CONNECT</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">TikTok</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CONTACT</h3>
+                <ul>
+                    <li>Email: info@suvene.de</li>
+                    <li>Phone: +49 xxx xxx xxxx</li>
+                    <li>Berlin, Germany</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Shahzod. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
